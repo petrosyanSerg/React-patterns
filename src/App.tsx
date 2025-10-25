@@ -1,5 +1,6 @@
 import { SlotsPattern } from '@/patterns/slotsPattern';
 import { PostListWithData } from '@/patterns/hocPattern';
+import { AdapterPattern } from '@/patterns/adapterPattern';
 import { FunctionAsChild } from '@/patterns/functionAsChildPattern';
 import { ProxyComponents } from '@/patterns/proxyComponentsPattern';
 import { RenderPropsUseability } from '@/patterns/renderPropsPattern';
@@ -22,6 +23,8 @@ function App() {
       <ProxyComponents />
       | ---------------------------------------------------------------------------------- |
       <PostListWithData />
+      | ---------------------------------------------------------------------------------- |
+      <AdapterPattern />
       | ---------------------------------------------------------------------------------- |
     </div>
   );
